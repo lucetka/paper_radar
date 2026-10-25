@@ -246,7 +246,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🔬 OpenAlex Paper Radar")
+st.title("📡OpenAlex Paper Radar")
 
 
 @st.cache_resource
