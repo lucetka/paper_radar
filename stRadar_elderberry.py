@@ -358,6 +358,11 @@ else:
 
     st.stop()
 
+# --- PATCH to prevent numba crashing ---
+if hasattr(umap_model, '_metric_callable'):
+    # Disconnect the broken pre-compiled Numba link
+    umap_model._metric_callable = None
+
 
 # -----------------------------------------------------
 # Field filter
