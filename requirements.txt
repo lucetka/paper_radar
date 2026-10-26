@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+requests
+joblib
+colorcet
+sentence-transformers
+pyarrow
