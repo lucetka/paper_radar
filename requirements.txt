@@ -6,3 +6,5 @@ joblib
 colorcet
 sentence-transformers
 pyarrow
+umap-learn
+
