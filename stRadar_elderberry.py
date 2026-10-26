@@ -1,7 +1,8 @@
+import glob
+
 import os
 os.environ["NUMBA_DISABLE_JIT"] = "1"
 
-import glob
 import joblib
 import requests
 
